@@ -5,8 +5,8 @@ body {
 }
 
 img {
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+	background: cover;
 }
 h1 {
 	color: Blue;
