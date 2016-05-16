@@ -4,6 +4,9 @@ body {
 	font-style: calibri;
 }
 
+img {
+	text-align: center;
+}
 h1 {
 	color: Blue;
 	text-align: center;
@@ -12,8 +15,8 @@ h1 {
 	text-decoration: underline;
 }
 
-p, li {
-	color: white;
+p, li, a {
+	color: black;
 	text-size: 15px;
 	text-align: center;
 }
