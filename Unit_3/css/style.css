@@ -1,26 +1,19 @@
 body {
 	background: rgb(97,238,255);
 	color: rgb(127,123,127);
-	font-style: calibri;
+	font-family: calibri, sans-serif;
+	font-size: 16px;
 }
 
 img {
-	margin: justify;
-	background: cover;
+	width:100%;
 }
 h1 {
 	color: Blue;
-	text-align: center;
-	Text-size: 30px;
+	font-size: 32px;
 	font-weight: bold;
 	text-decoration: underline;
 }
-
-p, li, a {
-	color: black;
-	text-size: 15px;
-	text-align: center;
-}
-ul {
-	text-align: center;
+a {
+	color:inherit;	
 }
