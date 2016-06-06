@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	background: rgba(217, 221, 213, 1);
+	font-family: 'open Sans', sans-serif;
+	font-size: 18px;
+}
+
+img {
+	width: 40%;
+	display: inline-block;
+	margin: auto 0;
+	padding: 20px;
+	background: rgba(42, 40, 42, 1);
+}
+
+h1 {
+font-family: 'Open Sans', sans-serif;
+color: rgba(247, 251, 253, 1);
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h2 {
+font-family: 'Open Sans', sans-serif;
+color: rgba(247, 251, 253, 1);
+	font-size: 28px;
+	font-weight: bold;
+	text-align:center;
+}
+
+#homepage_text {
+	font-family: 'Open Sans', sans-serif;
+color: rgba(26, 76, 101, 1);
+	font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+}
+
+
+#call to action {
+	text-align: right;
+}
+
+#homepage_overview {
+		background-color: rgba(208, 213, 221, 0.35);
+	    border: 1px black solid;
+    padding: 10px;
+}
+
+
+
+footer {
+	background-color: red;
+	    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: rgba(208, 213, 221, 0.35);
+	    	    color: black; 
+	    border: 1px black solid;
+    padding: 20px;
+    text-align: right;
+}
+
+aside {
+    text-align: right;
+        padding: 20px;
+
+}
+
+article {
+	background-color: rgba(208, 213, 221, 0.35);
+	    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	    border: 1px black solid;
+    padding: 20px;
+}
+
+
+div {
+background-color: rgba(208, 213, 221, 0.35);
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#two_collumn {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left_unleash_overview {
+background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right_unleash_benefits {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}

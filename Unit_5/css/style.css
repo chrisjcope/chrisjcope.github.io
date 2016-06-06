@@ -11,10 +11,28 @@ img {
 	display: inline-block;
 }
 
+#two_collumn {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
 }
-h1 {
+
+#left_unleash_overview {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#right_unleash_benefits {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+}
+h1, h2 {
 font-family: 'Open Sans', sans-serif;
-color: Blue;
+color: white;
 	font-size: 32px;
 	font-weight: bold;
 	border-bottom: 4px solid black;
