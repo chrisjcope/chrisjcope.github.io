@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: rgba(217, 221, 213, 1);
 	font-family: 'open Sans', sans-serif;
@@ -13,13 +14,7 @@ img {
 	background: rgba(42, 40, 42, 1);
 }
 
-h1 {
-font-family: 'Open Sans', sans-serif;
-color: rgba(247, 251, 253, 1);
-	font-size: 32px;
-	font-weight: bold;
-	text-align: left;
-}
+h1 {font-family: 'Open Sans', sans-serif;color: rgba(247, 251, 253, 1);font-size: 32px;font-weight: bold;text-align: left;float: left;}
 
 h2 {
 font-family: 'Open Sans', sans-serif;
@@ -58,24 +53,12 @@ footer {
 
 nav {
 	background-color: rgba(208, 213, 221, 0.35);
-	    	    color: black; 
-	    border: 1px black solid;
-    padding: 20px;
-    text-align: right;
+	color: black;
+	border: 1px black solid;
+	padding: 20px;
+	/* text-align: right; */
+	float: right;
 }
-
-aside {
-    text-align: right;
-        padding: 20px;
-
-}
-
-article {
-	background-color: rgba(208, 213, 221, 0.35);
-	    border: 1px black solid;
-    padding: 20px;
-}
-
 footer {
 	background-color: #FF957E;
 	    border: 1px black solid;
@@ -88,27 +71,26 @@ background-color: rgba(208, 213, 221, 0.35);
     border: 1px black solid;
     padding: 20px;
 }
-
+#splash {
+	background:url(../images/Unleash_homepage.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 85vh;
+}
 #two_collumn {
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#left_unleash_overview {
-background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
+#left_unleash_overview {/* background-color: violet; *//* border: 1px black solid; */padding: 2em;float: left;width: 50%;}
 
 #right_unleash_benefits {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
+    /* background-color: pink; */
+    /* border: 1px black solid; */
+    padding: 2em;
+    float: right;
+    width: 50%;
 }
 
 .clearfix:after {
